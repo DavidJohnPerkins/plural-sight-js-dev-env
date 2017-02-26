@@ -1,3 +1,4 @@
 language: node-js
 node-js:
   - "6"
+sudo: required
