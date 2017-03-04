@@ -8,15 +8,15 @@ describe('Our first test', () => {
   });
 });
 
-/*describe('index.html', () => {
-  it('should say hello', (done1) => {
+describe('index.html', () => {
+  it('should have h1 that says Users', (done1) => {
     const index1 = fs.readFileSync('./src/index.html', "utf-8");
     jsdom.env(index1, function(err, window1) {
       const h1 = window1.document.getElementsByTagName('h1')[0];
-      expect(h1.innerHTML).to.equal("Hello World and David and Sarah!");
+      expect(h1.innerHTML).to.equal("Users");
       done1();
       window1.close();
     });
   })
-});*/
+});
 
